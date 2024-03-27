@@ -1,0 +1,692 @@
+[
+  {
+    "_id": "1",
+    "desc": "This is a description for job 1",
+    "exp": 1,
+    "profile": "other",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "SaaS Company",
+    "location": "Remote - Worldwide",
+    "salary": {
+      "min": 86351,
+      "max": 154492
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options",
+      "Dental Insurance"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "2",
+    "desc": "This is a description for job 2",
+    "exp": 3,
+    "profile": "developer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "Research Institute",
+    "location": "San Francisco, CA",
+    "salary": {
+      "min": 56898,
+      "max": 169486
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking"
+    ]
+  },
+  {
+    "_id": "3",
+    "desc": "This is a description for job 3",
+    "exp": 2,
+    "profile": "designer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "TechCorp",
+    "location": "Remote - US",
+    "salary": {
+      "min": 54732,
+      "max": 199983
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off"
+    ],
+    "remote": false,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication",
+      "Information Architecture"
+    ]
+  },
+  {
+    "_id": "4",
+    "desc": "This is a description for job 4",
+    "exp": 5,
+    "profile": "developer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "Growth Inc.",
+    "location": "Remote - Worldwide",
+    "salary": {
+      "min": 81381,
+      "max": 129531
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options"
+    ],
+    "remote": false,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication",
+      "Information Architecture"
+    ]
+  },
+  {
+    "_id": "5",
+    "desc": "This is a description for job 5",
+    "exp": 5,
+    "profile": "other",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "TestCo",
+    "location": "Los Angeles, CA",
+    "salary": {
+      "min": 66225,
+      "max": 165084
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching"
+    ],
+    "remote": false,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking"
+    ]
+  },
+  {
+    "_id": "6",
+    "desc": "This is a description for job 6",
+    "exp": 1,
+    "profile": "developer",
+    "techs": [
+      "tech 1",
+      "tech 2"
+    ],
+    "company": "SaaS Company",
+    "location": "New York City, NY",
+    "salary": {
+      "min": 84108,
+      "max": 171694
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication",
+      "Information Architecture"
+    ]
+  },
+  {
+    "_id": "7",
+    "desc": "This is a description for job 7",
+    "exp": 2,
+    "profile": "other",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "Cloud Solutions",
+    "location": "Remote - US",
+    "salary": {
+      "min": 77381,
+      "max": 124995
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options",
+      "Dental Insurance"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking"
+    ]
+  },
+  {
+    "_id": "8",
+    "desc": "This is a description for job 8",
+    "exp": 5,
+    "profile": "developer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "Innovator Inc.",
+    "location": "Austin, TX",
+    "salary": {
+      "min": 108488,
+      "max": 100444
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options",
+      "Dental Insurance"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "9",
+    "desc": "This is a description for job 9",
+    "exp": 2,
+    "profile": "designer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "CloudTech Solutions",
+    "location": "Los Angeles, CA",
+    "salary": {
+      "min": 93745,
+      "max": 167397
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off"
+    ],
+    "remote": false,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking"
+    ]
+  },
+  {
+    "_id": "10",
+    "desc": "This is a description for job 10",
+    "exp": 5,
+    "profile": "developer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "SaaS Company",
+    "location": "Los Angeles, CA",
+    "salary": {
+      "min": 129638,
+      "max": 184921
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options"
+    ],
+    "remote": false,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication",
+      "Information Architecture"
+    ]
+  },
+  {
+    "_id": "11",
+    "desc": "This is a description for job 11",
+    "exp": 2,
+    "profile": "qa",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "TestCo",
+    "location": "Remote - Worldwide",
+    "salary": {
+      "min": 69428,
+      "max": 138856
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Professional Development Opportunities"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "12",
+    "desc": "This is a description for job 12",
+    "exp": 3,
+    "profile": "designer",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "Design Agency",
+    "location": "New York City, NY",
+    "salary": {
+      "min": 90175,
+      "max": 180350
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Creative Workspace",
+      "Stock Options"
+    ],
+    "remote": false,
+    "skills": [
+      "Information Architecture",
+      "Visual Design",
+      "Usability Testing"
+    ]
+  },
+  {
+    "_id": "13",
+    "desc": "This is a description for job 13",
+    "exp": 2,
+    "profile": "customer success",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "SaaS Company",
+    "location": "Remote - US",
+    "salary": 74781,
+    "benefits": [
+      "Health Insurance",
+      "Dental Insurance",
+      "Vision Insurance",
+      "Unlimited PTO"
+    ],
+    "remote": true,
+    "skills": [
+      "Relationship Building",
+      "Account Management",
+      "Customer Onboarding"
+    ]
+  },
+  {
+    "_id": "14",
+    "desc": "This is a description for job 14",
+    "exp": 4,
+    "profile": "devops",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "CloudTech Solutions",
+    "location": "Los Angeles, CA",
+    "salary": {
+      "min": 117542,
+      "max": 196237
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Profit Sharing"
+    ],
+    "remote": false,
+    "skills": [
+      "Automation",
+      "Infrastructure Management",
+      "Problem-Solving"
+    ]
+  },
+  {
+    "_id": "15",
+    "desc": "This is a description for job 15",
+    "exp": 3,
+    "profile": "data scientist",
+    "techs": [
+      "python",
+      "numpy",
+      "pandas",
+      "machine learning",
+      "statistics"
+    ],
+    "company": "Design Agency",
+    "location": "Seattle, WA",
+    "salary": {
+      "min": 87412,
+      "max": 198374
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Tuition Reimbursement",
+      "Flexible Work Schedule"
+    ],
+    "remote": true,
+    "skills": [
+      "Data Visualization",
+      "Statistical Modeling",
+      "Problem-Solving"
+    ]
+  },
+  {
+    "_id": "16",
+    "desc": "This is a description for job 16",
+    "exp": 4,
+    "profile": "project manager",
+    "techs": [
+      "jira",
+      "trello",
+      "agile methodologies"
+    ],
+    "company": "Growth Inc.",
+    "location": "Chicago, IL",
+    "salary": {
+      "min": 114271,
+      "max": 148932
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Profit Sharing"
+    ],
+    "remote": false,
+    "skills": [
+      "Project Planning",
+      "Resource Management",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "17",
+    "desc": "This is a description for job 17",
+    "exp": 2,
+    "profile": "qa",
+    "techs": [
+      "selenium",
+      "appium",
+      "api testing"
+    ],
+    "company": "SaaS Company",
+    "location": "Remote - Worldwide",
+    "salary": {
+      "min": 62984,
+      "max": 137429
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Professional Development Opportunities"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "18",
+    "desc": "This is a description for job 18",
+    "exp": 1,
+    "profile": "content writer",
+    "techs": [
+      "seo",
+      "content marketing",
+      "grammarly",
+      "hemingway editor"
+    ],
+    "company": "Cloud Solutions",
+    "location": "New York City, NY",
+    "salary": {
+      "min": 50732,
+      "max": 114896
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Creative Work Environment"
+    ],
+    "remote": false,
+    "skills": [
+      "Content Creation",
+      "Editing",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "19",
+    "desc": "This is a description for job 19",
+    "exp": 5,
+    "profile": "security",
+    "techs": [
+      "firewalls",
+      "ids",
+      "vpn",
+      "linux"
+    ],
+    "company": "Innovator Inc.",
+    "location": "Austin, TX",
+    "salary": {
+      "min": 131745,
+      "max": 189321
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options"
+    ],
+    "remote": true,
+    "skills": [
+      "Risk Management",
+      "Incident Response",
+      "Compliance"
+    ]
+  },
+  {
+    "_id": "20",
+    "desc": "This is a description for job 20",
+    "exp": 4,
+    "profile": "qa",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "Design Agency",
+    "location": "Seattle, WA",
+    "salary": {
+      "min": 99423,
+      "max": 145781
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Profit Sharing"
+    ],
+    "remote": true,
+    "skills": [
+      "Problem-Solving",
+      "Analytical Thinking",
+      "Communication"
+    ]
+  },
+  {
+    "_id": "21",
+    "desc": "This is a description for job 21",
+    "exp": 3,
+    "profile": "customer success",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "CloudTech Solutions",
+    "location": "Chicago, IL",
+    "salary": {
+      "min": 74982,
+      "max": 182437
+    },
+    "benefits": [
+      "Health Insurance",
+      "Dental Insurance",
+      "Vision Insurance",
+      "Flexible Spending Account"
+    ],
+    "remote": false,
+    "skills": [
+      "Relationship Building",
+      "Account Management",
+      "Customer Onboarding"
+    ]
+  },
+  {
+    "_id": "22",
+    "desc": "This is a description for job 22",
+    "exp": 2,
+    "profile": "devops",
+    "techs": [
+      "tech 1",
+      "tech 2"
+    ],
+    "company": "Growth Inc.",
+    "location": "Remote - Worldwide",
+    "salary": 62378,
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Stock Options"
+    ],
+    "remote": true,
+    "skills": [
+      "Automation",
+      "Infrastructure Management",
+      "Problem-Solving"
+    ]
+  },
+  {
+    "_id": "23",
+    "desc": "This is a description for job 23",
+    "exp": 1,
+    "profile": "data scientist",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3"
+    ],
+    "company": "TestCo",
+    "location": "New York City, NY",
+    "salary": {
+      "min": 88135,
+      "max": 138729
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Tuition Reimbursement"
+    ],
+    "remote": false,
+    "skills": [
+      "Data Visualization",
+      "Statistical Modeling",
+      "Problem-Solving"
+    ]
+  },
+  {
+    "_id": "24",
+    "desc": "This is a description for job 24",
+    "exp": 5,
+    "profile": "project manager",
+    "techs": [
+      "tech 1",
+      "tech 2",
+      "tech 3",
+      "tech 4"
+    ],
+    "company": "SaaS Company",
+    "location": "Austin, TX",
+    "salary": {
+      "min": 114721,
+      "max": 198432
+    },
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "401k Matching",
+      "Gym Membership"
+    ],
+    "remote": true,
+    "skills": [
+      "Project Management",
+      "Leadership",
+      "Communication"
+    ]
+  }
+]
