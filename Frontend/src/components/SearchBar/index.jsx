@@ -1,9 +1,20 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import API from "../../api/axiosConfig";
 
 function SearchBar(props) {
   const [searchText, setSearchText] = useState("");
+  const defaultCriteria = {
+    title: "",
+    remote: "",
+    experience: "",
+  };
+
+  const [jobCriteria, setJobCriteria] = useState({
+    title: "",
+    remote: "",
+    experience: "",
+  });
   const [loading, setLoading] = useState(false);
   const submitHandler = async (e) => {
     e.preventDefault();
@@ -22,11 +33,6 @@ function SearchBar(props) {
       console.log(err);
     }
   };
-  const [jobCriteria, setJobCriteria] = useState({
-    title: "",
-    remote: "",
-    experience: "",
-  });
 
   const handleChange = (e) => {
     setJobCriteria((prevState) => ({
@@ -36,7 +42,7 @@ function SearchBar(props) {
   };
 
   const search = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(jobCriteria);
     // return;
     setLoading(true);
@@ -48,13 +54,20 @@ function SearchBar(props) {
       data.forEach((curr) => {
         tempJobs.push(curr);
       });
-      console.log(data);
       props.setJobs(tempJobs);
     } catch (err) {
       console.log(err);
     }
   };
+  useEffect(()=>{
+    search();
+  },[jobCriteria]);
 
+  const clearHandler = (e) => {
+    e.preventDefault();
+    setJobCriteria(defaultCriteria);
+    setSearchText("");
+  };
   return (
     <>
       <div className="flex gap-4 my-10 justify-center px-10">
@@ -67,25 +80,13 @@ function SearchBar(props) {
           <option value="" disabled hidden>
             Job Role
           </option>
-          <option value="iOS Developer">iOS Developer</option>
-          <option value="Frontend Developer">Frontend Developer</option>
-          <option value="Backend Developer">Backend Developer</option>
-          <option value="Android Developer">Android Developer</option>
-          <option value="Developer Advocate">Developer Advocate</option>
+          <option value="Developer">Developer</option>
+          <option value="Analyst">Analyst</option>
+          <option value="Backend Engineer">Backend Engineer</option>
+          <option value="Frontend Engineer">Frontend Engineer</option>
+          <option value="Devops">Devops</option>
         </select>
-        {/* <select
-          onChange={handleChange}
-          name="type"
-          value={jobCriteria.type}
-          className="w-64 py-3 pl-4 bg-zinc-200 font-semibold rounded-md"
-        >
-          <option value="" disabled hidden>
-            Job Type
-          </option>
-          <option value="Full Time">Full Time</option>
-          <option value="Part Time">Part Time</option>
-          <option value="Contract">Contract</option>
-        </select> */}
+
         <select
           onChange={handleChange}
           name="remote"
@@ -112,11 +113,19 @@ function SearchBar(props) {
           <option value="4">Mid Level</option>
           <option value="6">Senior Level</option>
         </select>
-        <button
+        {/* <button
           onClick={search}
           className="w-64 bg-blue-500 text-white font-bold py-3 rounded-md"
         >
           Search
+        </button> */}
+        <button
+          //    disabled = {jobCriteria === defaultCriteria}
+          className="text-white bg-red-600 shadow-2xl disabled:bg-red-300 rounded-lg p-3"
+          onClick={clearHandler}
+        >
+          {" "} 
+          CLEAR
         </button>
       </div>
 
