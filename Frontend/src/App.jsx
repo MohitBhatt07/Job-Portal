@@ -1,27 +1,22 @@
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import JobCard from "./components/JobCard";
 
-import { useEffect, useState } from "react";
-import API from "./api/axiosConfig";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
+import Navbar from "./components/Navbar/Navbar";
 import HomeLayout from "./Layout/Layout";
-import JobPage from "./components/JobPage";
+import JobPage from "./components/JobPage/JobPage";
+import AddJobPage from "./components/AddJobPage/AddJobPage";
 
 function App() {
   return (
     <div>
-      <Navbar />
-
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomeLayout />} />
-          <Route path="/:jobid" element={<JobPage />} />
+          <Route path="/job/:jobid" element={<JobPage />} />
+          <Route path="/addjob" element={<AddJobPage />} />
         </Routes>
       </Router>
-      
     </div>
   );
 }

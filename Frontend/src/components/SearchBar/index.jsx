@@ -70,12 +70,12 @@ function SearchBar(props) {
   };
   return (
     <>
-      <div className="flex gap-4 my-10 justify-center px-10">
+      <div className="flex gap-4  my-10 justify-center px-10">
         <select
           onChange={handleChange}
           name="title"
           value={jobCriteria.title}
-          className="w-64 py-3 pl-4 bg-zinc-200 font-semibold rounded-md"
+          className="w-64 py-3 pl-4 bg-zinc-200 font-semibold rounded-md "
         >
           <option value="" disabled hidden>
             Job Role

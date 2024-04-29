@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 import SearchBar from '../components/SearchBar';
-import JobCard from '../components/JobCard';
+import JobCard from '../components/JobCard/JobCard';
 import API from '../api/axiosConfig';
 import jobData from "../JobDummyData";
 
 const HomeLayout = () => {
-  const [jobs, setJobs] = useState(jobData);
+  const [jobs, setJobs] = useState([]);
   const [customSearch, setCustomSearch] = useState(false);
 
   const fetchJobs = async() => {
@@ -14,11 +14,9 @@ const HomeLayout = () => {
     const tempJobs = []
     
     try{
-      
       const response = await API.get('/posts');
-      console.log(response.data); 
       const data= response.data;
-      
+      console.log(data);
       data.forEach(curr => {
         tempJobs.push(curr);
       });
