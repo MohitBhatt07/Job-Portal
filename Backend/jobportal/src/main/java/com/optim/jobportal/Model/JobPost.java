@@ -24,5 +24,8 @@ public class JobPost {
     private List<String> benefits;
     private boolean remote;
     private List<String> skills;
-
+    
+    public boolean getRemote() {
+        return this.remote;
+    }
 }

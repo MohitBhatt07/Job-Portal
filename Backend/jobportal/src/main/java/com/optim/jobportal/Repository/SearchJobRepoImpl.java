@@ -1,5 +1,6 @@
 package com.optim.jobportal.Repository;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +16,7 @@ import org.springframework.data.mongodb.core.convert.MongoConverter;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
-import org.bson.Document;
+
 import com.mongodb.client.AggregateIterable;
 import com.mongodb.client.MongoClient;
 
