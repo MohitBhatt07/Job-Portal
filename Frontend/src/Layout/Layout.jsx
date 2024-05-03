@@ -1,20 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Header from '../components/Header/Header';
 import SearchBar from '../components/SearchBar';
 import JobCard from '../components/JobCard/JobCard';
 import API from '../api/axiosConfig';
 import jobData from "../JobDummyData";
+import { UserContext } from '../context/userContext';
 
 const HomeLayout = () => {
   const [jobs, setJobs] = useState([]);
   const [customSearch, setCustomSearch] = useState(false);
-
+  const user = useContext(UserContext);
   const fetchJobs = async() => {
     setCustomSearch(false);
     const tempJobs = []
-    
+    console.log(user);
     try{
-      const response = await API.get('/posts');
+      const response = await API.get('/test/posts' ,{
+        headers:{
+          Authorization : `Bearer ${user.jwtToken}`
+        }
+      });
       const data= response.data;
       console.log(data);
       data.forEach(curr => {
